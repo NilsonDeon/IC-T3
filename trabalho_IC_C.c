@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> // importando biblioteca
+#include <stdlib.h> // importando biblioteca
 
 int main()
 {
