@@ -2,7 +2,7 @@
 ## Trabalho de Introdução a computação
 
 * C ☑
-* C++ ☐
+* C++ ☑
 * C# ☐
 * Java ☐
-* Python ☐
+* Python ☑
