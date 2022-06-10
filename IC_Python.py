@@ -8,7 +8,7 @@ n = int(input("Quantas pessoas? "))  # recebendo número de participantes
 
 for i in range(n):  # loop para receber o tamanho das camisas
     # recebendo tamanho das camisas e adicionando ao list "t"
-    t.append(int(input(f"Insita o tamanho da camisa do competidor {i}: ")))
+    t.append(int(input("Insita o tamanho da camisa do competidor: ")))
 
 
 # recebendo quantidade de camisas P

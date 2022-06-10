@@ -9,14 +9,14 @@ int main()
     int p;  // camisas tamanho P
     int m;  // camisas tamanho M
 
-    cout << "Quantos pessoas? ";
+    cout << "Quantas pessoas? ";
     cin >> n; // recebendo número de participantes
 
     t = new int[n]; // alocando espaço do vetor com tamanho das camisas
 
     for (int i = 0; i < n; i++)
     {
-        cout << "Qual o tamanho da camisa do competidor " << (i + 1) << ": ";
+        cout << "Qual o tamanho da camisa do competidor: ";
         cin >> t[i]; // recebendo tamanho das camisas e adicionando ao vetor "t"
     }
 
@@ -28,12 +28,10 @@ int main()
 
     for (int i = 0; i < n; i++) // se a camisa na posição "i" for tamanho P
     {
-        if (t[i] == 1) // se a camisa na posição "i" for tamanho P
-        {
+        if (t[i] == 1){ // se a camisa na posição "i" for tamanho P
             p--; // remove uma camisa do tamanho P
         }
-        else
-        {
+        else{
             m--; // remove uma camisa do tamanho M
         }
     }

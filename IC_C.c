@@ -12,11 +12,10 @@ int main()
     printf("Quantas pessoas? ");
     scanf("%d", &n); // recebendo número de participantes
 
-    t = (int *)malloc(n * sizeof(int)); // alocando espaço do vetor com tamanho das camisas
+    t = (int *) malloc(n * sizeof(int)); // alocando espaço do vetor com tamanho das camisas
 
-    for (int i = 0; i < n; i++) // loop para receber o tamanho das camisas
-    {
-        printf("Insita o tamanho da camisa do competidor %d: ", i + 1);
+    for (int i = 0; i < n; i++){ // loop para receber o tamanho das camisas
+        printf("Insira o tamanho da camisa do competidor: ");
         scanf("%i", &t[i]); // recebendo tamanho das camisas e adicionando ao vetor "t"
     }
 
@@ -26,24 +25,22 @@ int main()
     printf("Quantos querem camisa M: ");
     scanf("%d", &m); // recebendo quantidade de camisas M
 
-    for (int i = 0; i < n; i++) // Loop de verificação das camisas
-    {
-        if (t[i] == 1) // se a camisa na posição "i" for tamanho P
-        {
+    for (int i = 0; i < n; i++) { // Loop de verificação das camisas
+   
+        if (t[i] == 1) { // se a camisa na posição "i" for tamanho P
             p--; // remove uma camisa do tamanho P
         }
-        else // se não
-        {
+        else{ // se não
             m--; // remove uma camisa do tamanho M
         }
     }
 
-    if (p == 0 && m == 0) // verificando se todos os participantes receberam a camisa que queriam
-    {
+    if (p == 0 && m == 0){ // verificando se todos os participantes receberam a camisa que queriam
+    
         printf("S"); // receberam as camisas que queriam
     }
-    else
-    {
+    else{
+    
         printf("N"); // não receberam as camisas que queriam
     }
 
