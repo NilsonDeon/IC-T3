@@ -3,6 +3,6 @@
 
 * C ☑
 * C++ ☑
-* C# ☐
-* Java ☐
+* C# ☑
+* Java ☑
 * Python ☑
