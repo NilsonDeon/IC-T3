@@ -14,8 +14,8 @@ int main()
 
     t = (int *) malloc(n * sizeof(int)); // alocando espaço do vetor com tamanho das camisas
 
+    printf("Insira o tamanho da camisa dos competidores: ");
     for (int i = 0; i < n; i++){ // loop para receber o tamanho das camisas
-        printf("Insira o tamanho da camisa do competidor: ");
         scanf("%i", &t[i]); // recebendo tamanho das camisas e adicionando ao vetor "t"
     }
 

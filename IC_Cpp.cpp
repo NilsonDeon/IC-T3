@@ -13,10 +13,10 @@ int main()
     cin >> n; // recebendo número de participantes
 
     t = new int[n]; // alocando espaço do vetor com tamanho das camisas
-
+    
+    cout << "Insira o tamanho da camisa dos competidores: ";
     for (int i = 0; i < n; i++)
     {
-        cout << "Qual o tamanho da camisa do competidor: ";
         cin >> t[i]; // recebendo tamanho das camisas e adicionando ao vetor "t"
     }
 

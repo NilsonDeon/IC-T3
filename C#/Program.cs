@@ -7,8 +7,9 @@ n = int.Parse(Console.ReadLine()); // recebendo número de participantes
 
 int[] t = new int[n]; // criando vetor de tamanho n, para armazenar os tamanhos das camisas
 
+    
 for (int i = 0; i < n; i++){ // loop para receber o tamanho das camisas
-    Console.Write("Insira o tamanho da camisa do competidor: ");
+    Console.Write("Insira o tamanho da camisa dos competidores: ");
     t[i] = int.Parse(Console.ReadLine()); // recebendo tamanho das camisas e adicionando ao vetor "t"
 }
 

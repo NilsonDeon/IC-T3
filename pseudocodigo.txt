@@ -1,0 +1,5 @@
+1 - obter número de pessoas
+2 - receber tamanho das camisas
+3 - receber quantos querem camisas tamanho P e quantos querem camisas tamanho M
+4 - verificar se todos receberam as camisas que queriam
+5- mostrar resultado

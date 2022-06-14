@@ -12,9 +12,8 @@ public class IC_Java {
             n = scan.nextInt(); // recebendo número de participantes
 
             int[] t = new int[n]; // criendo e alocando espaço do vetor com tamanho das camisas
-
+            System.out.print("Insira o tamanho da camisa dos competidores: ");
             for(int i = 0; i < n; i++){
-                System.out.print("Qual o tamanho da camisa? ");
                 t[i] = scan.nextInt(); // recebendo tamanho das camisas e adicionando ao vetor "t"
             }  
             
